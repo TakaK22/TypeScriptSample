@@ -39,6 +39,16 @@ jestをインストールする
 $ docker-compose run --rm node npm install --save-dev jest ts-jest @types/jest typescript
 ```
 
+## 単体テストの実行
+
+```
+# コンパイル
+$ docker-compose exec node npx tsc
+
+# テストの実行
+$ docker-compose exec node npm t
+```
+
 ## 参考情報
 
 [dockerでTypeScriptをいじれる環境を作る](https://qiita.com/reflet/items/538753d5dcf3560567a9)

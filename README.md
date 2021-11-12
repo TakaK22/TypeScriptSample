@@ -51,5 +51,5 @@ $ docker-compose exec node npm t
 
 ## 参考情報
 
-[dockerでTypeScriptをいじれる環境を作る](https://qiita.com/reflet/items/538753d5dcf3560567a9)
-[TypeScript の単体テストで Jest 使おう](https://qiita.com/okazuki/items/991a068892e946531612)
+- [dockerでTypeScriptをいじれる環境を作る](https://qiita.com/reflet/items/538753d5dcf3560567a9)
+- [TypeScript の単体テストで Jest 使おう](https://qiita.com/okazuki/items/991a068892e946531612)

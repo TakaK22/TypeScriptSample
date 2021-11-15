@@ -49,7 +49,12 @@ $ docker-compose exec node npx tsc
 $ docker-compose exec node npm t
 ```
 
+## 静的解析とフォーマッターの設定
+### パッケージのインストール
+
+`docker-compose run --rm node npm install --save-dev eslint eslint-config-prettier prettier @typescript-eslint/parser @typescript-eslint/eslint-plugin husky lint-staged`
 ## 参考情報
 
 [dockerでTypeScriptをいじれる環境を作る](https://qiita.com/reflet/items/538753d5dcf3560567a9)
 [TypeScript の単体テストで Jest 使おう](https://qiita.com/okazuki/items/991a068892e946531612)
+[ESLintとPrettierのCI環境を構築](https://github.com/deatiger/ts-basic-demo)
